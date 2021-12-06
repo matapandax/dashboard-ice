@@ -34,9 +34,11 @@
         <div class="row">
           <div class="col-lg-3 col-6">
             <!-- small box -->
-            <div class="small-box bg-info">
+            <div class="small-box bg-success">
               <div class="inner">
                 <h4>Total Perguruan Tinggi</h4>
+                <p>Konsorsium</p>
+                <p>3498</p>
               </div>
               <a href="<?php echo base_url('dashboard/total_pt') ?>" class="small-box-footer">More info <i class="fas fa-arrow-circle-right"></i></a>
             </div>
@@ -44,9 +46,23 @@
           <!-- ./col -->
           <div class="col-lg-3 col-6">
             <!-- small box -->
-            <div class="small-box bg-info">
+            <div class="small-box bg-olive">
+              <div class="inner">
+                <h4>Total Perguruan Tinggi</h4>
+                <p>Non-Konsorsium</p>
+                <p>302</p>
+              </div>
+              <a href="<?php echo base_url('dashboard/total_pt') ?>" class="small-box-footer">More info <i class="fas fa-arrow-circle-right"></i></a>
+            </div>
+          </div>
+          <!-- ./col -->
+          <div class="col-lg-3 col-6">
+            <!-- small box -->
+            <div class="small-box bg-warning">
               <div class="inner">
                 <h4>Rekap Enroll PT</h4>
+                <p class="text-warning">_</p>
+                <p>4900</p>
               </div>
               <a href="<?php echo base_url('dashboard/rekap_enroll_pt') ?>" class="small-box-footer">More info <i class="fas fa-arrow-circle-right"></i></a>
             </div>
@@ -57,6 +73,8 @@
             <div class="small-box bg-info">
               <div class="inner">
                 <h4>Total MK Konsorsium</h4>
+                <p class="text-info">_</p>
+                <p>7124</p>
               </div>
               <a href="<?php echo base_url('dashboard/total_mk_konsorsium') ?>" class="small-box-footer">More info <i class="fas fa-arrow-circle-right"></i></a>
             </div>
